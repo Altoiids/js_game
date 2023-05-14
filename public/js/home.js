@@ -3,5 +3,5 @@ document.getElementById("rulesbtn").onclick = function () {
   };
   
   document.getElementById("startbtn").onclick = function () {
-    location.href = "../../game.html";
+    location.href = "game.html";
   };
