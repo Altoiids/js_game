@@ -1,7 +1,7 @@
 document.getElementById("rulesbtn").onclick = function () {
-    location.href = "../../rules.html";
+    location.href = "rules.html";
   };
   
   document.getElementById("startbtn").onclick = function () {
-    location.href = "../../game.html";
+    location.href = "game.html";
   };
