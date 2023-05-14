@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    background: url(../assets/background1.jpg) no-repeat center center fixed;
+  
+    background-size: cover;
+  }
+  
+  #startbtn {
+    color: aliceblue;
+    display: flex;
+    position: relative;
+    margin-top: 20%;
+    margin-left: 45%;
+    height: 12vh;
+    width: 16vw;
+    background-color: #01CFF2;
+    border-radius: 10%;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 4vh;
+  }
+  
+  #rulesbtn {
+    color: aliceblue;
+    display: flex;
+    
+    margin-top: 3%;
+    
+    margin-left: 45%;
+    height: 12vh;
+    width: 16vw;
+    background-color: #01CFF2;
+    border-radius: 10%;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 4vh;
+  }
+  
+  .btn {
+    cursor: pointer;
+    box-shadow: 9px 9px 9px #ede4cb;
+    border: none;
+  }
+  .btn:hover {
+    background-color: #01CFF2;
+    
+  }
+  
+  .button:active {
+    background-color: #01CFF2;
+    
+    box-shadow: 0 2vh #ede4cb;
+    transform: translateY(2vh);
+  }
+  

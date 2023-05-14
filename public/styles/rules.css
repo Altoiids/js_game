@@ -1,0 +1,25 @@
+*{
+    background-color: aqua;
+}
+
+#title{
+    display: flex;
+ justify-content: center;
+ font-size: 8vh;
+ font-weight: bold;
+}
+.points{
+    margin-top:4vh;
+    font-size: 3vh;
+}
+#point1{
+    padding-top: 5vh;
+}
+
+#end{
+display: flex;
+    font-size: 7vh;
+    justify-content: center;
+    padding-top: 4vh;
+font-weight: bold;
+}

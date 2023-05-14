@@ -96,6 +96,7 @@ class bubble{
         ctx.fill();
         ctx.closePath();
         ctx.stroke;
+        
     }
 }
 
@@ -152,6 +153,8 @@ class enemy{
         ctx.fill();
         ctx.closePath();
         ctx.stroke;
+        ctx.fillStyle='black';
+        
     }
 }
 
@@ -173,10 +176,7 @@ enemyarray[i].update();
         if(enemyarray[i].distance< enemyarray[i].radius+player.radius){
             (console.log("collision"));
             if(!enemyarray[i].counted){
-            //     if(enemyarray[i].sound=='sound1'){
-            //     collisionsound.play();
-            //     console.log("sound function called");
-            // }
+            
                 gameover();
                 enemyarray[i].counted = true;
                 enemyarray.splice(i,1); 
@@ -187,7 +187,10 @@ enemyarray[i].update();
 
 function gameover(){
     ctx.fillStyle='white';
-    ctx.fillText('GAME OVER',canvasvar.width/2.5,canvasvar.height/2);
+    ctx.fillText('GAME OVER, You will be shortly redirected to homepage.',canvasvar.width/6,canvasvar.height/2);
+    setTimeout(() => {
+        location.href = "index.html";
+      }, 4000);
     game = true;
 }
 
